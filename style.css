@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-family: figtree;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    box-shadow: 7px 6px 0 black;
+    border-radius: 20px;
+    width: 340px;
+}
+.topic_image{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
+.tab{
+    background-color: hsl(47, 88%, 63%);
+    margin-left: 20px;
+    font-weight: 800;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.date{
+    margin: 20px; 
+    margin-top: 10px; 
+}
+.heading,.description,.name{
+    margin: 20px;
+}
+.description{
+    color: hsl(0, 0%, 50%);
+}
+.name{
+    display: flex;
+    font-weight: 800;
+}
+.name_image{
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.heading{
+    transition: color 0.15s;
+    cursor:pointer
+}
+.heading:hover,.hover:active{
+    color: hsl(47, 88%, 63%);
+}
+.card:active{
+    box-shadow:14px 12px 0 black ;
+}
