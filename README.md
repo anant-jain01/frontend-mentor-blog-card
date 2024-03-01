@@ -1,4 +1,6 @@
 # Frontend Mentor - Blog preview card
+LINK TO VIEW:
+https://frontend-mentor-blog-card-chi.vercel.app/
 
 ![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
 
